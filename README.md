@@ -3,11 +3,14 @@
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
-## Install .10+ Neovim
+## Install .10+ Neovim and lazyvim dependecies 
 
 ```
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt update
+sudo apt install neovim
+sudo apt install build-essential
+sudo apt install fzf
 ```
 
 ## Clone this config
